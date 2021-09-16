@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloWorld", "HelloWorld\HelloWorld.vcxproj", "{D59D692C-0050-495A-90ED-24770F802980}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JeuDeDes", "JeuDeDes\JeuDeDes.vcxproj", "{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{D59D692C-0050-495A-90ED-24770F802980}.Release|x64.Build.0 = Release|x64
 		{D59D692C-0050-495A-90ED-24770F802980}.Release|x86.ActiveCfg = Release|Win32
 		{D59D692C-0050-495A-90ED-24770F802980}.Release|x86.Build.0 = Release|Win32
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Debug|x64.ActiveCfg = Debug|x64
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Debug|x64.Build.0 = Debug|x64
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Debug|x86.ActiveCfg = Debug|Win32
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Debug|x86.Build.0 = Debug|Win32
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Release|x64.ActiveCfg = Release|x64
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Release|x64.Build.0 = Release|x64
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Release|x86.ActiveCfg = Release|Win32
+		{265A83D5-6FCD-42B9-8E9C-1BDB7E5ED05E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
