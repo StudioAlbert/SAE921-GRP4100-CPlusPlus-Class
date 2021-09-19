@@ -24,6 +24,7 @@
     <ProjectGuid>{265a83d5-6fcd-42b9-8e9c-1bdb7e5ed05e}</ProjectGuid>
     <RootNamespace>JeuDeDes</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01.01 - JeuDeDes</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
