@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Arrays multidimensi
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Strings", "01.02 - Strings\01.02 - Strings.vcxproj", "{8962EA1B-4E5C-42B6-84A7-ABABA3DF9832}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 - NonDecimal arithmetic", "01.03 - NonDecimal arithmetic\01.03 - NonDecimal arithmetic.vcxproj", "{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{8962EA1B-4E5C-42B6-84A7-ABABA3DF9832}.Release|x64.Build.0 = Release|x64
 		{8962EA1B-4E5C-42B6-84A7-ABABA3DF9832}.Release|x86.ActiveCfg = Release|Win32
 		{8962EA1B-4E5C-42B6-84A7-ABABA3DF9832}.Release|x86.Build.0 = Release|Win32
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Debug|x64.ActiveCfg = Debug|x64
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Debug|x64.Build.0 = Debug|x64
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Debug|x86.Build.0 = Debug|Win32
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x64.ActiveCfg = Release|x64
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x64.Build.0 = Release|x64
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x86.ActiveCfg = Release|Win32
+		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
