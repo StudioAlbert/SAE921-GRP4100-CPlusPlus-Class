@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+#pragma region Global
 enum class Animals
 {
     Tiger,
@@ -10,11 +11,10 @@ enum class Animals
     Dog,
     Chicken
 };
+#pragma endregion
 
 int main()
 {
-    
-
     
     std::cout << "Hello World!\n";
 }
