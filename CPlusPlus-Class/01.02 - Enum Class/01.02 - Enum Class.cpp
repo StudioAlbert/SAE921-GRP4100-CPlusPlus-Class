@@ -93,7 +93,9 @@ int main() {
 	std::cout << "01-Basics-Enum" << std::endl;
 
 	Aliment monAlimentPrefere = Aliment::PIZZA;
-	std::cout << AlimentToString(monAlimentPrefere) << std::endl;
+
+	std::string retour = AlimentToString(monAlimentPrefere);
+	std::cout << retour << std::endl;
 	std::cout << static_cast<int>(monAlimentPrefere) << std::endl;
 
 	Cities city;

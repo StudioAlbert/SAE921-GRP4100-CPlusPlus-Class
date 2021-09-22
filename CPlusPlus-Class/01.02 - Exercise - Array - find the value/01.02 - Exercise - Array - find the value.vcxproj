@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{9a8e0c96-7c6b-4162-b787-9b6ff3a00db2}</ProjectGuid>
-    <RootNamespace>Formative0102Enumanimals</RootNamespace>
+    <ProjectGuid>{c93eefa2-6a7d-44d1-81e3-5001bfc463b6}</ProjectGuid>
+    <RootNamespace>My0102ExerciseArrayfindthevalue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01.02 - Enum - Exercise</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Formative 01.02 - Enum animals.cpp" />
+    <ClCompile Include="01.02 - Exercise - Array - find the value.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

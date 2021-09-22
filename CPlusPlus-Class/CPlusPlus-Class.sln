@@ -23,7 +23,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 - NonDecimal arithmet
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 - return break continuer", "01.01 - return break continuer\01.01 - return break continuer.vcxproj", "{7F541BFA-A9DD-4098-BE85-25967D999BC7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Formative 01.02 - Enum animals", "Formative 01.02 - Enum animals\Formative 01.02 - Enum animals.vcxproj", "{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Enum - Exercise", "Formative 01.02 - Enum animals\Formative 01.02 - Enum animals.vcxproj", "{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercise - Array - find the score", "01.02 - Exercise - Array - find the score\01.02 - Exercise - Array - find the score.vcxproj", "{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercise - Array - find the value", "01.02 - Exercise - Array - find the value\01.02 - Exercise - Array - find the value.vcxproj", "{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +125,22 @@ Global
 		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x64.Build.0 = Release|x64
 		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x86.ActiveCfg = Release|Win32
 		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x86.Build.0 = Release|Win32
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Debug|x64.ActiveCfg = Debug|x64
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Debug|x64.Build.0 = Debug|x64
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Debug|x86.Build.0 = Debug|Win32
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Release|x64.ActiveCfg = Release|x64
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Release|x64.Build.0 = Release|x64
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Release|x86.ActiveCfg = Release|Win32
+		{0F4CA347-1FCB-4152-B077-0A72F7A7ABF1}.Release|x86.Build.0 = Release|Win32
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Debug|x64.ActiveCfg = Debug|x64
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Debug|x64.Build.0 = Debug|x64
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Debug|x86.ActiveCfg = Debug|Win32
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Debug|x86.Build.0 = Debug|Win32
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Release|x64.ActiveCfg = Release|x64
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Release|x64.Build.0 = Release|x64
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Release|x86.ActiveCfg = Release|Win32
+		{C93EEFA2-6A7D-44D1-81E3-5001BFC463B6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
