@@ -8,23 +8,62 @@ enum class Aliment
 	PIZZA
 };
 
+enum class Monster {
+	ORC,
+	DRAGON,
+	ELF,
+	ELON_MUSK
+};
+
+int monsterHealth(Monster monster_) {
+	
+	switch (monster_)
+	{
+	case Monster::ORC:
+		return 50;
+		break;
+	case Monster::DRAGON:
+		return 5000;
+		break;
+	case Monster::ELF:
+		return 10;
+		break;
+	case Monster::ELON_MUSK:
+		return 200;
+		break;
+	default:
+		return -1;
+		break;
+	}
+
+}
+
 enum class Cities : int
 {
 	PARIS = 1,
-	LONDON,
-	BERLIN,
-	MADRID
+	LONDON = 1,
+	BERLIN = 1,
+	MADRID = 0x8
+};
+
+enum class CitiesLatitude : int
+{
+	PARIS = 1,
+	LONDON = 3,
+	TOKYO = 6,
+	MADRID = 0x8
 };
 
 enum class Colors : long long
 {
-	RED = 0xffff00ff,
-	BLUE = 0xff0000ff
+	DARK = 0xffff00ff,
+	FADE = 0xffff00ff,
+	BRIGHT = 0xff0000ff
 };
 
-std::string AlimentToString(Aliment suit_) {
+std::string AlimentToString(Aliment aliment_) {
 
-	switch (suit_)
+	switch (aliment_)
 	{
 	case Aliment::BURGER:
 		return "American food with bread, meat and cheese";
@@ -42,7 +81,8 @@ std::string AlimentToString(Aliment suit_) {
 		return "No ananas";
 		break;
 
-	default:	
+	default:
+		return "Value out of range";
 		break;
 	}
 
@@ -52,16 +92,16 @@ int main() {
 
 	std::cout << "01-Basics-Enum" << std::endl;
 
-	Aliment aliment;
-	aliment = Aliment::PIZZA;
-	std::cout << AlimentToString(aliment) << std::endl;	
+	Aliment monAlimentPrefere = Aliment::PIZZA;
+	std::cout << AlimentToString(monAlimentPrefere) << std::endl;
+	std::cout << static_cast<int>(monAlimentPrefere) << std::endl;
 
 	Cities city;
 	city = Cities::LONDON;
 	std::cout << static_cast<int>(city) << std::endl;
 
 	Colors color;
-	color = Colors::RED;
+	color = Colors::DARK;
 	std::cout << static_cast<long long>(color) << std::endl;
 
 	return EXIT_SUCCESS;

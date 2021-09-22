@@ -7,6 +7,34 @@ int somme(int valeur1, int valeur2) {
     return valeur1 + valeur2;
 }
 
+// User interaction
+bool userQuestionning() {
+
+    char reponse;
+
+    std::cout << "Votre wallet contient " << wallet << " CHF" << std::endl;
+    std::cout << "Voulez vous rejouer en doublant ou repartir avec vos gains (o/n) ?" << std::endl;
+    std::cin >> reponse;
+
+    if (reponse == 'o') {
+        // On a décide de doubler et rejouer
+        return true;
+    }
+    else if (reponse == 'n') {
+        std::cout << "Vous avez gagné " << wallet << " CHF" << std::endl;
+        return false;
+    }
+    else {
+        // --------------------------------------------------------
+        // A traiter plus tard
+    }
+
+
+}
+
+// Wallet of the user , the money
+int wallet = 5;
+
 int main()
 {
     
@@ -17,8 +45,6 @@ int main()
     int scorePrecedent = 2;
 
     bool continuer = true;
-
-    int wallet = 5;
 
     // Je tire les dés jusqu'à l'arrêt de l'utilisateur
     do
@@ -41,23 +67,7 @@ int main()
             std::cout << "Gagne :D" << std::endl;
             scorePrecedent = scoreCourant;
 
-            char reponse;
-            std::cout << "Votre wallet contient " << wallet << " CHF" << std::endl;
-            std::cout << "Voulez vous rejouer en doublant ou repartir avec vos gains (o/n) ?" << std::endl;
-            std::cin >> reponse;
-
-            if (reponse == 'o') {
-                // On a décide de doubler et rejouer
-                continuer = true;
-            }
-            else if (reponse == 'n') {
-                std::cout << "Vous avez gagné " << wallet << " CHF" << std::endl;
-                continuer = false;
-            }
-            else {
-                // --------------------------------------------------------
-                // A traiter plus tard
-            }
+            continuer = userQuestionning();
 
         }
         else {

@@ -21,6 +21,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Strings", "01.02 - 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.03 - NonDecimal arithmetic", "01.03 - NonDecimal arithmetic\01.03 - NonDecimal arithmetic.vcxproj", "{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.01 - return break continuer", "01.01 - return break continuer\01.01 - return break continuer.vcxproj", "{7F541BFA-A9DD-4098-BE85-25967D999BC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Formative 01.02 - Enum animals", "Formative 01.02 - Enum animals\Formative 01.02 - Enum animals.vcxproj", "{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +105,22 @@ Global
 		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x64.Build.0 = Release|x64
 		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x86.ActiveCfg = Release|Win32
 		{2BEECEE6-6DFA-4665-84C9-F41AB76045B1}.Release|x86.Build.0 = Release|Win32
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Debug|x64.ActiveCfg = Debug|x64
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Debug|x64.Build.0 = Debug|x64
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Debug|x86.Build.0 = Debug|Win32
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Release|x64.ActiveCfg = Release|x64
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Release|x64.Build.0 = Release|x64
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Release|x86.ActiveCfg = Release|Win32
+		{7F541BFA-A9DD-4098-BE85-25967D999BC7}.Release|x86.Build.0 = Release|Win32
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Debug|x64.ActiveCfg = Debug|x64
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Debug|x64.Build.0 = Debug|x64
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Debug|x86.Build.0 = Debug|Win32
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x64.ActiveCfg = Release|x64
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x64.Build.0 = Release|x64
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x86.ActiveCfg = Release|Win32
+		{9A8E0C96-7C6B-4162-B787-9B6FF3A00DB2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

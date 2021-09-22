@@ -5,14 +5,14 @@
 
 int main()
 {
-	
+
 #pragma region C-STYLE Arrays
 
 	int myArrayA[6] = { 19, 10, 8, 17, 9, 15 };
 	// Parcours facon C
 	std::cout << "Contenu du tableau [ ";
 	for (int i = 0; i < 6; i++) {
-		std::cout << myArrayA[i] << " : ";
+		std::cout << "indice = " << i << ":" << myArrayA[i] << " : ";
 	}
 	std::cout << " ]" << std::endl;
 
@@ -24,7 +24,7 @@ int main()
 	}
 	// Lecture du contenu
 	std::cout << "Contenu du tableau [ ";
-	for (int i = 0; i < 6; i++) {
+	for (int i = 0; i < std::size(myArrayB); i++) {
 		std::cout << myArrayB[i] << " : ";
 	}
 	std::cout << " ]" << std::endl;
@@ -38,12 +38,10 @@ int main()
 		wednesday,
 		thursday,
 		friday,
-		saturday,
-		sunday,
 
-		maxWeekday
+		nbWeekday
 	};
-	int numberOfLessonsPerDay[maxWeekday]{};
+	int numberOfLessonsPerDay[nbWeekday]{};
 	
 	// 0 is the default value
 	numberOfLessonsPerDay[wednesday] = 6;
@@ -51,7 +49,7 @@ int main()
 	
 	// Lecture du contenu
 	std::cout << "Contenu du tableau [ ";
-	for (int i = 0; i < maxWeekday; i++) {
+	for (int i = 0; i < nbWeekday; i++) {
 		std::cout << numberOfLessonsPerDay[i] << " : ";
 	}
 	std::cout << " ]" << std::endl;

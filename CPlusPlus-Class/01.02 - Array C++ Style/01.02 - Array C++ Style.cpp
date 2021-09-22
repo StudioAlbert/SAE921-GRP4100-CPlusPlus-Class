@@ -26,7 +26,7 @@ int main()
 	// Lecture du contenu
 	std::cout << "Contenu du tableau [ ";
 	for (int i = 0; i < myArrayB.size(); i++) {
-		std::cout << myArrayB[i] << " : ";
+		std::cout << myArrayB.at(i) << " : ";
 	}
 	std::cout << " ]" << std::endl;
 

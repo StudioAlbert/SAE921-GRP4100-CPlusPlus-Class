@@ -2,21 +2,24 @@
 
 int main()
 {
-    constexpr int numRows = 10;
+    constexpr int numRows = 15;
     constexpr int numCols = 10;
 
     // Declare a 10x10 array
     int product[numRows][numCols]{};
 
-    // Print the table
-    for (int row{ 1 }; row < numRows; ++row)
+    product[6][3] = 25;
+
+    // Print the table ------------------------------------------------------
+    for (int col{ 0 }; col < numCols; ++col)   
     {
-        for (int col{ 1 }; col < numCols; ++col)
-        {
-            std::cout << product[row][col] << '\t';
+        for (int row = 0; row < numRows; ++row) {
+            std::cout << row << ":" << col << "=" << product[row][col] << '\t';
         }
 
+        // Jump a line
         std::cout << std::endl;
+
     }
 
     return 0;
