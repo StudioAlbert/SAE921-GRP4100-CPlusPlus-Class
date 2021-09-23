@@ -91,16 +91,16 @@ std::string printASuit(Suit suit_) {
     switch (suit_)
     {
     case Suit::Pique:
-        return "Pique";
+        return "Spades";
         break;
     case Suit::Coeur:
-        return "Coeur";
+        return "Hearts";
         break;
     case Suit::Carreau:
-        return "Carreau";
+        return "Diamonds";
         break;
     case Suit::Trefle:
-        return "trefle";
+        return "Clubs";
         break;
     default:
         return "Default";
@@ -118,6 +118,7 @@ int main()
     std::array<Card, 52> deck{};
     int deckCount = 0;
     
+    // Make the deck --------------------------------
     for (int s{ 1 }; s <= 4; s++) {
 
         for (int v{ 2 }; v <= 14; v++) {
@@ -129,11 +130,36 @@ int main()
             deck.at(deckCount) = myCard;
             deckCount++;
 
-            std::cout << printACard(myCard) << std::endl;
+            //std::cout << printACard(myCard) << std::endl;
 
         }
     }
 
+    // Check the deck 
+    /*for (auto myCard : deck) {
+        std::cout << printACard(myCard) << std::endl;
+    }*/
 
+    // Get the cards
+    srand(time(NULL));
+    std::array<int, 5> cardIndexes{};
+    cardIndexes.fill(-1);
+
+    for(int n{ 0 }; n < 5; n++ ) {
+        int idxCardTemp = rand() % 52;
+
+        bool trouve = false;
+        for (auto iCard : cardIndexes) {
+            if (iCard == idxCardTemp) {
+                trouve = true;
+                break;
+            }
+        }
+
+        if (!trouve) {
+            cardIndexes.at(n) = idxCardTemp;
+            std::cout << printACard(deck.at(idxCardTemp)) << std::endl;
+        }
+    }
 
 }
