@@ -16,9 +16,14 @@ int main()
         srand(values.at(i));
     }
 
-    for (auto myValue : values) {
-        std::cout << myValue << '\t';
+    for (int i{ 0 }; i < values.size(); ++i) {
+        std::cout << values.at(i) << '\t';
+        std::cout << values[i] << '\t';
     }
+
+    /*or (auto myValue : values) {
+        std::cout << myValue << '\t';
+    }*/
     std::cout << std::endl;
 
     int valueToFind;

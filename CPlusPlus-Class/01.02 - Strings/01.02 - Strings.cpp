@@ -75,5 +75,6 @@ int main()
     std::cout << "Concat result cleared :" << std::endl;
     std::cout << concatResult;
 
+    std::string str;
 
 }
