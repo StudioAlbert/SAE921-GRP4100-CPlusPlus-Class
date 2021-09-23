@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Exercise - Array - 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Formative - Poker", "01.02 - Formative - Poker\01.02 - Formative - Poker.vcxproj", "{BC99F43C-DEB2-4292-BC7B-4EA1EC4D978D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Formative - Strings", "01.02 - Formative - Strings\01.02 - Formative - Strings.vcxproj", "{90732857-3D1A-4620-AAAA-6947A4A07F1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{BC99F43C-DEB2-4292-BC7B-4EA1EC4D978D}.Release|x64.Build.0 = Release|x64
 		{BC99F43C-DEB2-4292-BC7B-4EA1EC4D978D}.Release|x86.ActiveCfg = Release|Win32
 		{BC99F43C-DEB2-4292-BC7B-4EA1EC4D978D}.Release|x86.Build.0 = Release|Win32
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Debug|x64.ActiveCfg = Debug|x64
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Debug|x64.Build.0 = Debug|x64
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Debug|x86.ActiveCfg = Debug|Win32
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Debug|x86.Build.0 = Debug|Win32
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Release|x64.ActiveCfg = Release|x64
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Release|x64.Build.0 = Release|x64
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Release|x86.ActiveCfg = Release|Win32
+		{90732857-3D1A-4620-AAAA-6947A4A07F1D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

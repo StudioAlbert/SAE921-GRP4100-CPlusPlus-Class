@@ -6,6 +6,16 @@ int main()
     std::string myWord = "francis";
     std::string myInput;
 
+    std::string first_name = "John";
+    std::string last_name = "Doe";
+    std::string full_name;
+
+    full_name += first_name;
+    full_name += " ";
+    full_name = full_name + last_name;
+    std::cout << full_name;
+
+
     std::cout << "Before operations : " << myWord << std::endl;
     std::cout << "String size() : " << myWord.size() << std::endl;
     std::cout << "String length() : " << myWord.length() << std::endl;
@@ -34,13 +44,22 @@ int main()
     std::cout << std::endl;
     std::cout << "String example : " << str1 << std::endl;
     std::cout << "index of first occurence of l = " << str1.find('l') << std::endl;
+    std::cout << "index of not found occurence of l = " << str1.find('a') << std::endl;
+
+    // Not Found
+    if (str1.find('a') > str1.length()) {
+        std::cout << "Not found a" << std::endl;
+    }
+
     // Find a whole string
     std::string str2("C++");
     std::cout << "index of first occurence of C++ = " << str1.find(str2) << std::endl;
 
     // Cut in a string
+    std::string str3 = "love";
     std::cout << "What is in the 3rd place" << str1.substr(3) << std::endl;
     std::cout << "What is in the 3rd place (5 long) " << str1.substr(3, 5) << std::endl;
+    std::cout << "What is in the 3rd place (5 long) " << str1.substr(str1.find(str3), str3.size()) << std::endl;
 
     std::cout << std::endl;
     std::cout << "Let's concat some strings" << std::endl;
@@ -55,6 +74,7 @@ int main()
     concatResult = "this " + concatResult;
     concatResult = concatResult + " my results : ";
     concatResult.push_back('\n');
+    concatResult.pop_back();
 
     for (size_t i = 0; i < 4; i++)
     {
@@ -76,5 +96,9 @@ int main()
     std::cout << concatResult;
 
     std::string str;
+
+    std::string base = "this is a test string.";
+    std::string str4 = base;
+    str4.replace(9, 5, str2);          // "this is an example string." (1)
 
 }
