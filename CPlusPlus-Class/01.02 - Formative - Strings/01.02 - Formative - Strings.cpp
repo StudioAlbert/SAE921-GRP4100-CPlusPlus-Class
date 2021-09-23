@@ -42,7 +42,8 @@ Personna initAPersonna(
 // The whole bunch of messages
 void initMessages() {
     messages.at(0) = "Hi [Title] [Name], welcome to the federation board.";
-    messages.at(1) = "There is a very important mission on [Planet].";
+    messages.at(1) = "There is a very important mission on [Planet]."
+	"The childs of Bggi attacked [Planet], many injuries are reported, and [Planet] will be destroyed.";
     messages.at(2) = "[Title] [Name], go to [Ship] and combat !";
 };
 
@@ -59,23 +60,31 @@ void initMessages() {
 */
 std::string messageReplacement(std::string message_, std::string eye_, std::string needle_) {
 
-    int foundPosition;
+    int foundPosition = -1;
 
-    do{
-        foundPosition = message_.find(eye_, foundPosition + 1);
-        if (foundPosition != -1) {
-            //std::cout << "Found " << eye_ << " in " << message_ << " pos:" << foundPosition << std::endl;
-            message_.replace(foundPosition, eye_.length(), needle_);
-        }
+    if (!needle_.empty() && !eye_.empty())
+    {
+	    do{
+		    foundPosition = message_.find(eye_, foundPosition + 1);
+		    if (foundPosition != -1) {
+			    //std::cout << "Found " << eye_ << " in " << message_ << " pos:" << foundPosition << std::endl;
+			    message_.replace(foundPosition, eye_.length(), needle_);
+		    }
 
-    } while (foundPosition != -1);
+	    } while (foundPosition != -1);
+    }
 
     return message_;
 
 
 };
 
-// Take the message and will try to change each key word with the personna fields
+/**
+ * \brief 
+ * \param message_ : the whole sentence with keywords
+ * \param personna_ : the personna which we want the fields values to replace
+ * \return 
+ */
 std::string getReplacedMessage(std::string message_, Personna personna_) {
 
     message_ = messageReplacement(message_, "[Title]", personna_.title);
