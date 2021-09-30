@@ -49,6 +49,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Classroom - Class", "0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Exercise 2.1 - Data structures - Vector", "03 - Exercise 2.1 - Data structures - Vector\03 - Exercise 2.1 - Data structures - Vector.vcxproj", "{EE4E9D2D-9C11-41CB-9D0E-F3A8207CD36F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Exercise 3.2 - Data structures - List", "03 - Exercise 3.2 - Data structures - List\03 - Exercise 3.2 - Data structures - List.vcxproj", "{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Classroom - Data structures - String list", "03 - Classroom - Data structures - String list\03 - Classroom - Data structures - String list.vcxproj", "{4BB594DB-FAEA-4F62-95AC-BD402A707895}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +245,22 @@ Global
 		{EE4E9D2D-9C11-41CB-9D0E-F3A8207CD36F}.Release|x64.Build.0 = Release|x64
 		{EE4E9D2D-9C11-41CB-9D0E-F3A8207CD36F}.Release|x86.ActiveCfg = Release|Win32
 		{EE4E9D2D-9C11-41CB-9D0E-F3A8207CD36F}.Release|x86.Build.0 = Release|Win32
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Debug|x64.ActiveCfg = Debug|x64
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Debug|x64.Build.0 = Debug|x64
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Debug|x86.ActiveCfg = Debug|Win32
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Debug|x86.Build.0 = Debug|Win32
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Release|x64.ActiveCfg = Release|x64
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Release|x64.Build.0 = Release|x64
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Release|x86.ActiveCfg = Release|Win32
+		{A916AECF-A388-45A7-B3CD-D1585FE4B9D7}.Release|x86.Build.0 = Release|Win32
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Debug|x64.ActiveCfg = Debug|x64
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Debug|x64.Build.0 = Debug|x64
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Debug|x86.Build.0 = Debug|Win32
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Release|x64.ActiveCfg = Release|x64
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Release|x64.Build.0 = Release|x64
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Release|x86.ActiveCfg = Release|Win32
+		{4BB594DB-FAEA-4F62-95AC-BD402A707895}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
