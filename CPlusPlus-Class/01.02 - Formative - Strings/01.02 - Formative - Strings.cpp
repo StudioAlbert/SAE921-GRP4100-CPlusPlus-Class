@@ -52,23 +52,23 @@ void initMessages() {
 * 
 * Parameters :
 * message_ : the string where the replacement will operate
-* eye_ : the string to replace
-* needle_ : the new string to put in place
+* messageSeeked_ : the string to replace
+* infoToPutIn_ : the new string to put in place
 * 
 * return a new fresh message with the replacement done. If no replacement required, then the message is identical returned
 * 
 */
-std::string messageReplacement(std::string message_, std::string eye_, std::string needle_) {
+std::string messageReplacement(std::string message_, std::string messageSeeked_, std::string infoToPutIn_) {
 
     int foundPosition = -1;
 
-    if (!needle_.empty() && !eye_.empty())
+    if (!infoToPutIn_.empty() && !messageSeeked_.empty())
     {
 	    do{
-		    foundPosition = message_.find(eye_, foundPosition + 1);
+		    foundPosition = message_.find(messageSeeked_, foundPosition + 1);
 		    if (foundPosition != -1) {
-			    //std::cout << "Found " << eye_ << " in " << message_ << " pos:" << foundPosition << std::endl;
-			    message_.replace(foundPosition, eye_.length(), needle_);
+			    //std::cout << "Found " << messageSeeked_ << " in " << message_ << " pos:" << foundPosition << std::endl;
+			    message_.replace(foundPosition, messageSeeked_.length(), infoToPutIn_);
 		    }
 
 	    } while (foundPosition != -1);
@@ -104,7 +104,9 @@ int main()
     /*
     Init the characters
     */
-    Personna sarah = initAPersonna("Sarah Sheppard", "Commander", "Earth", "The explorer");
+
+    //Personna sarah = initAPersonna("Sarah Sheppard", "Commander", "Earth", "The explorer");
+    Personna sarah = { "Sarah Sheppard", "Commander", "Earth", "The explorer" };
     Personna phil = initAPersonna("Phil Spector", "Pilot", "Mars", "3434-DFG");
     Personna theAlien = initAPersonna("Whifghy", "Child", "Sector SD/F67", "Sxiot");
     Personna chosenPersonna;

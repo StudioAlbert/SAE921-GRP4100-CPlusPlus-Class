@@ -33,7 +33,6 @@ enum class Suit : int
 struct Card {
     Value value;
     Suit suit;
-
 };
 
 std::string printAValue(Value value_) {
@@ -124,7 +123,8 @@ int main()
         for (int v{ 2 }; v <= 14; v++) {
 
             Card myCard;
-            myCard.suit = static_cast<Suit>(s);
+
+        	myCard.suit = static_cast<Suit>(s);
             myCard.value = static_cast<Value>(v);
 
             deck.at(deckCount) = myCard;

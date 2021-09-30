@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2beecee6-6dfa-4665-84c9-f41ab76045b1}</ProjectGuid>
-    <RootNamespace>My0103NonDecimalarithmetic</RootNamespace>
+    <ProjectGuid>{ee4e9d2d-9c11-41cb-9d0e-f3a8207cd36f}</ProjectGuid>
+    <RootNamespace>My03Exercise21DatastructuresVector</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02 - NonDecimal arithmetic</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01.03 - NonDecimal arithmetic.cpp" />
+    <ClCompile Include="03 - Exercise 2.1 - Data structures - Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

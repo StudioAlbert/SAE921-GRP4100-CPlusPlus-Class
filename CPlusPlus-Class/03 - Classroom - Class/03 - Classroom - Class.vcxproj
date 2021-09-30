@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2beecee6-6dfa-4665-84c9-f41ab76045b1}</ProjectGuid>
-    <RootNamespace>My0103NonDecimalarithmetic</RootNamespace>
+    <ProjectGuid>{86d90494-a7be-4e74-8910-d4b0075e4406}</ProjectGuid>
+    <RootNamespace>My03ClassroomClass</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>02 - NonDecimal arithmetic</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="01.03 - NonDecimal arithmetic.cpp" />
+    <ClCompile Include="03 - Classroom - Class.cpp" />
+    <ClCompile Include="Animal.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animal.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
