@@ -1,24 +1,20 @@
 #include "Animal.h"
 
 
-Animal::Animal(int foodInit_)
+void Animal::eat(int foodToEat)
 {
-	std::cout << "An animal is born." << std::endl;
-	food_ = foodInit_;
+	
 }
 
-
-Animal::~Animal()
+void Animal::drink()
 {
-	std::cout << "An animal is dead." << std::endl;
-	std::cout << "Remaining food " << food_ << std::endl;
+	
 }
 
-
-void Animal::eat(int foodToEat_)
+bool Animal::IsDead()
 {
-	std::cout << "An animal is eating." << std::endl;
-	food_--;
+	
 }
+
 
 

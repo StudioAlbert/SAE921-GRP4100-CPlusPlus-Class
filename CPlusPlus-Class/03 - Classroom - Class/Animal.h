@@ -14,9 +14,15 @@ class Animal
 
 		void eat(int);
 		void drink();
-		void play();
+		bool IsDead();
+		void play()
+		{
+			std::cout << 
+		}
 
 		void print();
 
 };
+
+
 
