@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{265a83d5-6fcd-42b9-8e9c-1bdb7e5ed05e}</ProjectGuid>
-    <RootNamespace>JeuDeDes</RootNamespace>
+    <ProjectGuid>{8cdcf3f4-b884-4905-8759-c9f1fc38e1fb}</ProjectGuid>
+    <RootNamespace>My04ClassroomClassstatic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>01.01 - JeuDeDes</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,13 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="JeuDeDes.cpp" />
+    <ClCompile Include="04 - Classroom - Class - static.cpp" />
+    <ClCompile Include="Monster.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="01.01 - JeuDeDes.rc" />
+    <ClInclude Include="Monster.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
