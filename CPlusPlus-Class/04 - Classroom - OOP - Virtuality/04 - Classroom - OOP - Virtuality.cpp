@@ -15,7 +15,7 @@ public:
 	std::string Says() override { return "Woof"; }
 };
 
-void makeAnimalSay(Animal &animal)
+void makeAnimalSay(Animal& animal)
 {
     std::cout << animal.Says() << std::endl;
 }
@@ -24,7 +24,6 @@ void main()
 {
     Dog d;
     Animal a;       // refer to Dog instance with Animal pointer
-
 
     makeAnimalSay(a);
 	makeAnimalSay(d);

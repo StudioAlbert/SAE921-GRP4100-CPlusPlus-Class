@@ -1,3 +1,4 @@
+#include "..\04 - Classroom - OOP - Operator\Point.h"
 #include "Point.h"
 
 #include <iostream>
@@ -6,6 +7,10 @@ Point::Point()
 {
 	// Set to origin at startup
 	x_ = y_ = 0;
+}
+
+Point::Point(int x, int y)
+{
 }
 
 Point::Point(double x, double y)
