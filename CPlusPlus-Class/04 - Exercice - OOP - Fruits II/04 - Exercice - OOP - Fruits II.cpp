@@ -23,37 +23,21 @@ std::vector<FruitTree*> initTrees(int nbTrees)
         if(tirage % 3 == 0)
 	    {
             // Add a cherry tree
-            /*
-            CherryTree ct;
-            ct.initFruitQuantity();
-
-            */
             trees.push_back(new CherryTree());
 
 	    }else if(tirage % 3 == 1)
 	    {
             // Add an apple tree
-            /*
-            AppleTree ct;
-            ct.initFruitQuantity();
-
-            */
             trees.push_back(new AppleTree());
 
 	    }else if (tirage % 3 == 2)
 	    {
             // Add an apple tree
-            /*
-            PearTree ct;
-            ct.initFruitQuantity();
-
-            */
             trees.push_back(new PearTree());
 
 	    }else
         {
             std::cout << "This case should not happen. Please check the code.";
-
         }
 
 
@@ -104,16 +88,6 @@ int main()
     std::vector<FruitTree*> trees;
     static const int nbTrees = 140;
 
-    float weightHarvested = 0;
-    float weightCherriesHarvested = 0;
-    float weightApplesHarvested = 0;
-    float weightPearsHarvested = 0;
-
-    int nbRecoltes = 1;
-    bool contractEnded = false;
-
-    unsigned int idxTree = 0;
-
     // init the trees ----------------------------------------------------
     std::cout << "Init trees ----------------" << std::endl;
     trees = initTrees(nbTrees);
@@ -123,32 +97,36 @@ int main()
     checkTrees(trees);
     
     // Recoltes --------------------------------------------------------------------
+    int nbRecoltes = 1;
+    bool contractEnded = false;
+    unsigned int idxTree = 0;
+
     do
     {
 
-        weightHarvested = 0;
-        weightCherriesHarvested = 0;
-        weightApplesHarvested = 0;
-        weightPearsHarvested = 0;
+        float totalWeightHarvested = 0;
+        float weightCherriesHarvested = 0;
+        float weightApplesHarvested = 0;
+        float weightPearsHarvested = 0;
 
         do
         {
             FruitTree *theCurrentTree = trees.at(idxTree);
 
-        	float weight = theCurrentTree->harvest(2000 - weightHarvested);
-			weightHarvested += weight;
+        	float oneTreeWeight = theCurrentTree->harvest(2000 - totalWeightHarvested);
+			totalWeightHarvested += oneTreeWeight;
 
         	if (dynamic_cast<CherryTree*>(theCurrentTree) != nullptr)
             {
-                weightCherriesHarvested += weight;
+                weightCherriesHarvested += oneTreeWeight;
             }
             else if (dynamic_cast<AppleTree*>(theCurrentTree) != nullptr)
             {
-                weightApplesHarvested += weight;
+                weightApplesHarvested += oneTreeWeight;
             }
             else if (dynamic_cast<PearTree*>(theCurrentTree) != nullptr)
             {
-                weightPearsHarvested += weight;
+                weightPearsHarvested += oneTreeWeight;
             }
             else
             {
@@ -161,17 +139,17 @@ int main()
             }
 
 
-        } while (weightHarvested < 2000 && idxTree < trees.size());
+        } while (totalWeightHarvested < 2000 && idxTree < trees.size());
 
         // Affichage Récolte
         std::cout << "Recolte #" << nbRecoltes << std::endl;
         std::cout << "Weight in cherries \t\t\t" << weightCherriesHarvested << " kg" << std::endl;
         std::cout << "Weight in apples \t\t\t" << weightApplesHarvested << " kg" << std::endl;
         std::cout << "Weight in pears \t\t\t" << weightPearsHarvested << " kg" << std::endl;
-        std::cout << "Total Weight \t\t\t\t" << weightHarvested << " kg" << std::endl;
+        std::cout << "Total Weight \t\t\t\t" << totalWeightHarvested << " kg" << std::endl;
         std::cout << "---\t" << "---\t" << "---\t" << "---\t" << "---\t" << "---\t" << std::endl;
 
-        if (weightHarvested < 2000 || idxTree >= trees.size())
+        if (totalWeightHarvested < 2000 || idxTree >= trees.size())
         {
             contractEnded = true;
             std::cout << "contract ended :(" << std::endl;
