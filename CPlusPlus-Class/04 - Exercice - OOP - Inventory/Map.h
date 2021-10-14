@@ -1,10 +1,22 @@
 #pragma once
+#include <string>
+
 #include "Item.h"
 class Map :
     public Item
 {
+
+private:
+    std::string land_;
+
 public:
-    void use();
+    Map(std::string land);
+
+    void use() override;
+    void display() override;
+    std::string getType() override;
+
+    std::string getLand();
 
 };
 

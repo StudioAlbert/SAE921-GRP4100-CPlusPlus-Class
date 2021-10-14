@@ -141,12 +141,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="04 - Exercice 9 - OOP - Inventory.cpp" />
+    <ClCompile Include="ForcePotion.cpp" />
+    <ClCompile Include="HealthPotion.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Potion.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ForcePotion.h" />
+    <ClInclude Include="HealthPotion.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Map.h" />
+    <ClInclude Include="Potion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
