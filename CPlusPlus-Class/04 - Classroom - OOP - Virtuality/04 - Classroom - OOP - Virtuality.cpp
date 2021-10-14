@@ -6,7 +6,7 @@ class Animal
 public:
     // turn the following virtual modifier on/off to see what happens
     //virtual   
-    virtual std::string Says() { return "?"; }
+	virtual std::string Says() { return "?"; }
 };
 
 class Dog : public Animal
@@ -25,7 +25,10 @@ void main()
     Dog d;
     Animal a;       // refer to Dog instance with Animal pointer
 
-    makeAnimalSay(a);
+	std::cout << a.Says() << std::endl;
+	std::cout << d.Says() << std::endl;
+
+	makeAnimalSay(a);
 	makeAnimalSay(d);
 	
 }

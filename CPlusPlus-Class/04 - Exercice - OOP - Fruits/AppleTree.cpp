@@ -1,6 +1,6 @@
 #include "AppleTree.h"
 
-AppleTree::AppleTree() : FruitTree()
+AppleTree::AppleTree()// : FruitTree()
 {	
 	fruitWeight = 0.150f;
 	initFruitQuantity();

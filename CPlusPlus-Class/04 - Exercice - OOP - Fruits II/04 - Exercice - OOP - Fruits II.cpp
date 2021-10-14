@@ -85,7 +85,10 @@ void checkTrees(std::vector<FruitTree*> trees)
 
 int main()
 {
-    std::vector<FruitTree*> trees;
+    // The whole collection of trees
+	std::vector<FruitTree*> trees;
+
+    // How much trees do we need ?
     static const int nbTrees = 140;
 
     // init the trees ----------------------------------------------------
@@ -97,8 +100,11 @@ int main()
     checkTrees(trees);
     
     // Recoltes --------------------------------------------------------------------
-    int nbRecoltes = 1;
+    // Number of harvesting
+    int nbHarvesting = 1;
+    // Flag to out the harvesting if the garden is not plenty enough
     bool contractEnded = false;
+    // The index of the current tree to harvest
     unsigned int idxTree = 0;
 
     do
@@ -142,7 +148,7 @@ int main()
         } while (totalWeightHarvested < 2000 && idxTree < trees.size());
 
         // Affichage Récolte
-        std::cout << "Recolte #" << nbRecoltes << std::endl;
+        std::cout << "Recolte #" << nbHarvesting << std::endl;
         std::cout << "Weight in cherries \t\t\t" << weightCherriesHarvested << " kg" << std::endl;
         std::cout << "Weight in apples \t\t\t" << weightApplesHarvested << " kg" << std::endl;
         std::cout << "Weight in pears \t\t\t" << weightPearsHarvested << " kg" << std::endl;
@@ -155,8 +161,8 @@ int main()
             std::cout << "contract ended :(" << std::endl;
         }
 
-        nbRecoltes++;
+        nbHarvesting++;
 
-    } while (nbRecoltes <= 10 && contractEnded == false);
+    } while (nbHarvesting <= 10 && contractEnded == false);
 
 }

@@ -1,9 +1,9 @@
 #include "FruitTree.h"
 
-FruitTree::FruitTree()
+/*FruitTree::FruitTree()
 {
 	//initFruitQuantity();
-}
+}*/
 
 float FruitTree::getWeightAvailable()
 {

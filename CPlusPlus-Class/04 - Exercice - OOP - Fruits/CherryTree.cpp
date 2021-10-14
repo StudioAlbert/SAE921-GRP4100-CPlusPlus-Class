@@ -1,8 +1,8 @@
 #include "CherryTree.h"
 
-CherryTree::CherryTree() : FruitTree()
+CherryTree::CherryTree()// : FruitTree()
 {
-	fruitWeight = 0.005f;
+	fruitWeight = 0.005F;
 	initFruitQuantity();
 }
 

@@ -87,6 +87,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{BDE8FAA8-7440-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice - OOP - Fruits II", "04 - Exercice - OOP - Fruits II\04 - Exercice - OOP - Fruits II.vcxproj", "{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice 9 - OOP - Inventory", "04 - Exercice - OOP - Inventory\04 - Exercice - OOP - Inventory.vcxproj", "{38C28DC1-78D2-4A80-B1C3-2449A7D05352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -399,6 +401,14 @@ Global
 		{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1}.Release|x64.Build.0 = Release|x64
 		{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1}.Release|x86.ActiveCfg = Release|Win32
 		{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1}.Release|x86.Build.0 = Release|Win32
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Debug|x64.ActiveCfg = Debug|x64
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Debug|x64.Build.0 = Debug|x64
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Debug|x86.ActiveCfg = Debug|Win32
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Debug|x86.Build.0 = Debug|Win32
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x64.ActiveCfg = Release|x64
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x64.Build.0 = Release|x64
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x86.ActiveCfg = Release|Win32
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -442,6 +452,7 @@ Global
 		{92B1127A-38C6-45F2-93EE-C7FA2BED1E8F} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
 		{D383CE45-E9C0-4F8A-B157-FF5E775528DD} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
 		{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
+		{38C28DC1-78D2-4A80-B1C3-2449A7D05352} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B9199D9-A1BD-47BB-A38A-F9851FFD3AFF}

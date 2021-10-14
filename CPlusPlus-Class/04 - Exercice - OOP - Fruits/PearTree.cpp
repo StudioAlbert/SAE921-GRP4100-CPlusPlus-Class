@@ -1,6 +1,6 @@
 #include "PearTree.h"
 
-PearTree::PearTree() : FruitTree()
+PearTree::PearTree()// : FruitTree()
 {
 	fruitWeight = 0.090f;
 	initFruitQuantity();

@@ -11,7 +11,8 @@ protected:
 
 
 public:
-	FruitTree();
+	//FruitTree();
+
 	void initFruitQuantity();
 	float getWeightAvailable();
 	float harvest(float);
