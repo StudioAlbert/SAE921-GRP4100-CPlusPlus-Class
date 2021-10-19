@@ -1,6 +1,8 @@
 #include "Potion.h"
 
-Potion::Potion(int value) : value_(value)
+Potion::Potion(std::string name, std::string description,  int value) :
+Item(name, description),
+value_(value)
 {
 	
 }

@@ -2,7 +2,9 @@
 
 #include <iostream>
 
-Map::Map(std::string land) : land_(land)
+Map::Map(std::string name, std::string description, std::string land) :
+land_(land),
+Item(name, description)
 {
 }
 
@@ -13,7 +15,9 @@ void Map::use()
 
 void Map::display()
 {
+	Item::display();
 	std::cout << "A map of " << land_ << std::endl;
+	std::cout << " -- -- -- -- -- -- -- -- -- -- " << std::endl;
 }
 
 std::string Map::getType()

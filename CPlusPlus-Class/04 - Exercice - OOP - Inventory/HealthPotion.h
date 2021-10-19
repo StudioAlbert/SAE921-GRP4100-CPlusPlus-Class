@@ -5,11 +5,11 @@ class HealthPotion :
 {
 
 public:
-    HealthPotion(int healthValue = 0);
+    HealthPotion(std::string name, std::string description, int healthValue = 0);
 
     void use() override;
     std::string getType() override;
-    void display() override;
+    void display();
 
 };
 

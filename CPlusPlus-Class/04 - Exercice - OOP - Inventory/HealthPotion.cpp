@@ -2,7 +2,8 @@
 
 #include <iostream>
 
-HealthPotion::HealthPotion(int healthValue) : Potion(healthValue)
+HealthPotion::HealthPotion(std::string name, std::string description, int healthValue):
+Potion(name, description, healthValue)
 {
 }
 
@@ -18,6 +19,8 @@ std::string HealthPotion::getType()
 
 void HealthPotion::display()
 {
-    std::cout << getType() << " Health refill " << value_ << std::endl;
+    Item::display();
+	std::cout << "Health refill " << value_ << std::endl;
+    std::cout << " -- -- -- -- -- -- -- -- -- -- " << std::endl;
 }
 

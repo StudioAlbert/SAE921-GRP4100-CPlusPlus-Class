@@ -4,6 +4,8 @@
 #include <vector>
 
 #include "Item.h"
+#include "Sword.h"
+#include "Weapon.h"
 
 class Inventory
 {
@@ -13,12 +15,15 @@ private:
 
 public:
 	void add(std::unique_ptr<Item> item);
-	void display();
+	void displayEveryItems();
 
-	void useAMap(std::string whichMap);
+	void consultTheMap(std::string landRequest);
 	void drinkHealthPotion();
 
 	void drinkForcePotion();
 
+	Weapon* equipASword();
+	Weapon* equipABow();
+	
 };
 

@@ -3,7 +3,8 @@
 #include <iostream>
 #include <ostream>
 
-ForcePotion::ForcePotion(int buffValue) : Potion(buffValue)
+ForcePotion::ForcePotion(std::string name, std::string description, int buffValue) :
+Potion(name, description, buffValue)
 {
 }
 
@@ -19,5 +20,7 @@ std::string ForcePotion::getType()
 
 void ForcePotion::display()
 {
-	std::cout << "This is a Force potion [" << value_ << "]" << std::endl;
+	Item::display();
+	std::cout << "Force augmented : " << value_ << std::endl;
+	std::cout << " -- -- -- -- -- -- -- -- -- -- " << std::endl;
 }

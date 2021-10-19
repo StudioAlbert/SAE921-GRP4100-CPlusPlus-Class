@@ -10,10 +10,10 @@ private:
     std::string land_;
 
 public:
-    Map(std::string land);
+    Map(std::string name, std::string description, std::string land);
 
     void use() override;
-    void display() override;
+    void display();
     std::string getType() override;
 
     std::string getLand();

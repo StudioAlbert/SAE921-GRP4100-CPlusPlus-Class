@@ -5,11 +5,11 @@ class ForcePotion :
 {
 
 public:
-    ForcePotion(int buffValue = 0);
+    ForcePotion(std::string name, std::string description, int buffValue = 0);
 
 
     void use() override;
     std::string getType() override;
-    void display() override;
+    void display();
 };
 

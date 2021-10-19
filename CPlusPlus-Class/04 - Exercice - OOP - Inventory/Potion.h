@@ -8,7 +8,7 @@ protected:
     int value_;
 
 public:
-    Potion(int value = 0);
+    Potion(std::string name, std::string description, int value = 0);
     int getValue();
     std::string getType() override;
 

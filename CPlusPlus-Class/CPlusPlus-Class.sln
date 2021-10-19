@@ -59,11 +59,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.02 - Formative - Poker -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice 1 - Class - Car", "04 - Exercice 1 - Class - Car\04 - Exercice 1 - Class - Car.vcxproj", "{8A71C581-1149-4D8E-8451-F57D5CF89829}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{CDFE249E-2F8D-4136-BAB1-FD8C1328B100}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Basics Programming", "01 - Basics Programming", "{CDFE249E-2F8D-4136-BAB1-FD8C1328B100}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{79AF7DD1-A4D5-456A-99BD-BCA2E13853E8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Non-decimal arithmetic", "02 - Non-decimal arithmetic", "{79AF7DD1-A4D5-456A-99BD-BCA2E13853E8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{C1E96F87-A2A4-4F56-9325-EB992E2A14C3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Data structures", "03 - Data structures", "{C1E96F87-A2A4-4F56-9325-EB992E2A14C3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice 2 - Class - Point", "04 - Exercice 2 - Class - Point\04 - Exercice 2 - Class - Point.vcxproj", "{186AA9B0-BB7C-4348-A438-A57EE1BE9491}"
 EndProject
@@ -83,11 +83,27 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Classroom - OOP - Heri
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice - OOP - Fruits", "04 - Exercice - OOP - Fruits\04 - Exercice - OOP - Fruits.vcxproj", "{D383CE45-E9C0-4F8A-B157-FF5E775528DD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04", "04", "{BDE8FAA8-7440-4892-8B37-F231990C7A87}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Classes and OOP", "04 - Classes and OOP", "{BDE8FAA8-7440-4892-8B37-F231990C7A87}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice - OOP - Fruits II", "04 - Exercice - OOP - Fruits II\04 - Exercice - OOP - Fruits II.vcxproj", "{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Exercice 9 - OOP - Inventory", "04 - Exercice - OOP - Inventory\04 - Exercice - OOP - Inventory.vcxproj", "{38C28DC1-78D2-4A80-B1C3-2449A7D05352}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06 - Program Structure", "06 - Program Structure", "{49DCE30D-8D16-4A61-95B6-26850F5092C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program Structure - Classroom - Function", "06 - Classroom - Program Structure - Function\06 - Classroom - Program Structure - Function.vcxproj", "{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program Structure - Classroom - Lambdas", "06 - Classroom - Program Structure - Lambdas\06 - Classroom - Program Structure - Lambdas.vcxproj", "{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program structure - Exercice 2 - Function pointer", "06 - Program structure - Exercice - Function pointer\06 - Program structure - Exercice - Function pointer.vcxproj", "{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program structure - Exercice 3 - Function pointer", "06 - Program structure - Exercice 3 - Function pointer\06 - Program structure - Exercice 3 - Function pointer.vcxproj", "{A5BD75DB-DE23-4488-A635-2C8BD110521D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program structure - Exercice 4 - Lambdas", "06 - Program structure - Exercice 4 - Lambdas\06 - Program structure - Exercice 4 - Lambdas.vcxproj", "{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program structure - Exercice 5 - Lambdas", "06 - Program structure - Exercice 5 - Lambdas\06 - Program structure - Exercice 5 - Lambdas.vcxproj", "{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Program Structure - Classroom - Compile directives", "06 - Program Structure - Classroom - Compile directives\06 - Program Structure - Classroom - Compile directives.vcxproj", "{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -409,6 +425,62 @@ Global
 		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x64.Build.0 = Release|x64
 		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x86.ActiveCfg = Release|Win32
 		{38C28DC1-78D2-4A80-B1C3-2449A7D05352}.Release|x86.Build.0 = Release|Win32
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Debug|x64.ActiveCfg = Debug|x64
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Debug|x64.Build.0 = Debug|x64
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Debug|x86.Build.0 = Debug|Win32
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Release|x64.ActiveCfg = Release|x64
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Release|x64.Build.0 = Release|x64
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Release|x86.ActiveCfg = Release|Win32
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71}.Release|x86.Build.0 = Release|Win32
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Debug|x64.ActiveCfg = Debug|x64
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Debug|x64.Build.0 = Debug|x64
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Debug|x86.Build.0 = Debug|Win32
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Release|x64.ActiveCfg = Release|x64
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Release|x64.Build.0 = Release|x64
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Release|x86.ActiveCfg = Release|Win32
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7}.Release|x86.Build.0 = Release|Win32
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Debug|x64.ActiveCfg = Debug|x64
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Debug|x64.Build.0 = Debug|x64
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Debug|x86.ActiveCfg = Debug|Win32
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Debug|x86.Build.0 = Debug|Win32
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Release|x64.ActiveCfg = Release|x64
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Release|x64.Build.0 = Release|x64
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Release|x86.ActiveCfg = Release|Win32
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE}.Release|x86.Build.0 = Release|Win32
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Debug|x64.ActiveCfg = Debug|x64
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Debug|x64.Build.0 = Debug|x64
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Debug|x86.Build.0 = Debug|Win32
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Release|x64.ActiveCfg = Release|x64
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Release|x64.Build.0 = Release|x64
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Release|x86.ActiveCfg = Release|Win32
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D}.Release|x86.Build.0 = Release|Win32
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Debug|x64.ActiveCfg = Debug|x64
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Debug|x64.Build.0 = Debug|x64
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Debug|x86.ActiveCfg = Debug|Win32
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Debug|x86.Build.0 = Debug|Win32
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Release|x64.ActiveCfg = Release|x64
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Release|x64.Build.0 = Release|x64
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Release|x86.ActiveCfg = Release|Win32
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2}.Release|x86.Build.0 = Release|Win32
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Debug|x64.ActiveCfg = Debug|x64
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Debug|x64.Build.0 = Debug|x64
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Debug|x86.Build.0 = Debug|Win32
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Release|x64.ActiveCfg = Release|x64
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Release|x64.Build.0 = Release|x64
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Release|x86.ActiveCfg = Release|Win32
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6}.Release|x86.Build.0 = Release|Win32
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Debug|x64.ActiveCfg = Debug|x64
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Debug|x64.Build.0 = Debug|x64
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Debug|x86.Build.0 = Debug|Win32
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Release|x64.ActiveCfg = Release|x64
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Release|x64.Build.0 = Release|x64
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Release|x86.ActiveCfg = Release|Win32
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -453,6 +525,13 @@ Global
 		{D383CE45-E9C0-4F8A-B157-FF5E775528DD} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
 		{A13A746D-CAA1-41C8-8A27-ACF5C0FBEBC1} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
 		{38C28DC1-78D2-4A80-B1C3-2449A7D05352} = {BDE8FAA8-7440-4892-8B37-F231990C7A87}
+		{BCBC6374-50FD-4962-97C9-2AA3AF99AD71} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{BCB4ECDE-261A-4962-82B4-484CFBF1F1E7} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{F75D8B45-ADDF-44CC-9D98-80C19CDBF1BE} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{A5BD75DB-DE23-4488-A635-2C8BD110521D} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{76EFF918-59C5-4E55-81A0-C2767DB8A3B2} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{1FEF827C-A4AF-4BA9-8F96-1169B6CFA1C6} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
+		{7582D203-3F4F-4CD5-A57B-915EE0AA31FB} = {49DCE30D-8D16-4A61-95B6-26850F5092C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B9199D9-A1BD-47BB-A38A-F9851FFD3AFF}

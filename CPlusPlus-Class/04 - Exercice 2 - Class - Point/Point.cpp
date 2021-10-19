@@ -1,4 +1,3 @@
-#include "..\04 - Classroom - OOP - Operator\Point.h"
 #include "Point.h"
 
 #include <iostream>
