@@ -22,6 +22,7 @@ public:
 	void display();
 
 	bool operator==(Person &);
+	bool operator<(Person&);
 
 };
 

@@ -146,6 +146,8 @@
     <ClInclude Include="Display.h" />
     <ClInclude Include="Copy.h" />
     <ClInclude Include="Find.h" />
+    <ClInclude Include="Remove.h" />
+    <ClInclude Include="Sort.h" />
     <ClInclude Include="Person.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
