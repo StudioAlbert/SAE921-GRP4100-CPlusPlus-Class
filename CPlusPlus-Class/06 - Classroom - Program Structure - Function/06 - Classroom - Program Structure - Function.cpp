@@ -25,7 +25,8 @@ int main()
     // Function pointers
     std::cout << "Function pointers" << std::endl;
 
-	ptrFunc = mult;
+
+    ptrFunc = mult;
     std::cout << ptrFunc(3, 4) << std::endl;
 
     ptrFunc = add;

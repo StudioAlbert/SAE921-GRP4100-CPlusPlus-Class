@@ -4,7 +4,7 @@
 int max (int a, int b)
 {
 
-	std::cout << "Float max ------------------- " << std::endl;
+	std::cout << "Int max ------------------- " << std::endl;
 
 	if(a >= b)
 	{
@@ -18,7 +18,7 @@ int max (int a, int b)
 float max (float a, float b)
 {
 	
-	std::cout << "Float int ------------------ " << std::endl;
+	std::cout << "Float max ------------------ " << std::endl;
 
 	if (a >= b)
 	{

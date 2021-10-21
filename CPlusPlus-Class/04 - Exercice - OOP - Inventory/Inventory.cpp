@@ -77,6 +77,8 @@ void Inventory::drinkHealthPotion()
 	// Check every items
 	// NB : in the next courses, we could imagine a more efficient method.
 	// Today, we simply use our actual knwoledges
+	std::find_if(items.begin(), items.end(), [] () { });
+
 	for(auto itemIterator = items.begin(); itemIterator<items.end(); ++itemIterator)
 	{
 

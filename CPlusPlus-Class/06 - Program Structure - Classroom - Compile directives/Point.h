@@ -1,8 +1,10 @@
 #ifndef POINT_CLASS_DEFINE
 #define POINT_CLASS_DEFINE
 
+#include <iostream>
 
 #define MAX_COORDINATE 1000
+const int MAX_COORDINATE__ = 1000;
 
 #define set_x(x) x_ = x
 #define set_y(y) y_ = y

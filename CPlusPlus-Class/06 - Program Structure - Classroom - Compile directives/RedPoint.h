@@ -1,8 +1,9 @@
 #pragma once
 
-#define RED_POINT_DEFINE
-
 #include "Point.h"
+
+
+
 class RedPoint :
     public Point
 {

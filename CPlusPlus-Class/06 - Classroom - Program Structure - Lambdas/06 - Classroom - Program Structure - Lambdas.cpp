@@ -21,12 +21,31 @@ int main()
 	std::cout << squared_byCaptureRef() << std::endl;
 
 	captured = 10;
-	std::cout << "Captured variable = 20" << std::endl;
+	std::cout << "Captured variable = 10" << std::endl;
 	std::cout << squared_byCapture() << std::endl;
 	std::cout << squared_byCaptureRef() << std::endl;
 
 	// Utilisation dans les algorithmes -----------------------------------------------
 	std::vector<int> numbers = { 1,5,8,3,9,7,4,6 };
+	std::for_each(
+		numbers.begin(),
+		numbers.end(),
+		[](int &number)
+		{
+			number++;
+		}
+	);
+	std::cout << std::endl;
+
+	std::for_each(
+		numbers.begin(),
+		numbers.end(),
+		[](int& number)
+		{
+			std::cout << number << ";";
+		}
+	);
+	std::cout << std::endl;
 
 	// For each
 	std::vector<std::string> const messages{ "Les chiens", "aboient", ", mais", "la caravane", "passe." };
@@ -45,7 +64,7 @@ int main()
 	auto found = numbers.begin();
 	do
 	{
-		found = std::find_if(found, numbers.end(), [&](const int n) {return n % 2 == 0; });
+		found = std::find_if(found, numbers.end(), [](const int n) {return n % 2 == 0; });
 		std::cout << *found;
 		found++;
 	} while (found != numbers.end());
