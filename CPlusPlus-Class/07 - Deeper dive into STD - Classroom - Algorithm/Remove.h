@@ -4,11 +4,16 @@
 
 #include "Display.h"
 
+bool ifRemoveEvenNumbers(int n_) {
+	return n_ % 2 == 0;
+}
+
 // Arbitrary remove of one iterator
 void removeNumbers(std::vector<int>& numbers, const int nToRemove)
 {
 	auto removeIt = std::remove(numbers.begin(), numbers.end(), nToRemove);
 	numbers.erase(removeIt, numbers.end());
+	displayNumbers(numbers);
 
 	std::cout << "After " << nToRemove << " remove" << std::endl;
 	displayNumbers(numbers);
@@ -22,8 +27,8 @@ void removeEvenNumbers(std::vector<int>& numbers)
 		numbers.begin(),
 		numbers.end(),
 		[](int n) {return n % 2;});
+	
 	numbers.erase(removeIt, numbers.end());
-
 	std::cout << "After removing even numbers" << std::endl;
 	displayNumbers(numbers);
 
